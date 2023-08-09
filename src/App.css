@@ -28,11 +28,67 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flights-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+  margin-top: 10vh;
+}
+
+.flight {
+  background-color: rgb(202, 255, 238);
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10%;
+  width: 20vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.select {
+  margin-top: 10vh;
+  border-radius: 5%;
+  background-color: rgb(165, 6, 6);
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 1%;
+  border: none;
+  padding: 5px;
+}
+.btn {
+  margin-top: 2vh;
+  border-radius: 5%;
+  background-color: rgb(123, 165, 6);
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-user {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+}
+.btn-2 {
+  border-radius: 5%;
+  background-color: rgb(4, 31, 77);
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  text-decoration: none;
 }
